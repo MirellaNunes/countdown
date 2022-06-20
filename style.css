@@ -8,12 +8,12 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     text-align: center;
     font-size: 60px;
-    text-shadow: rgb(121, 247, 104) 2px 1px 1px;
+    text-shadow: rgb(252, 134, 134) 2px 1px 1px;
 }
 
 body {
     margin-top: 10%;
-    background-image: linear-gradient(rgb(40, 151, 99), rgb(106, 170, 80));
+    background-image: linear-gradient(rgba(248, 148, 148, 0.63), rgba(255, 50, 50, 0.753));
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: rgb(63, 136, 55) 2px 1px 1px;
+    text-shadow: rgba(255, 54, 54, 0.589) 2px 1px 1px;
 }
 .dias{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;

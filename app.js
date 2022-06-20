@@ -1,5 +1,5 @@
 const ContadorDias = () => {
-    const countDate = new Date ('May 17, 2023 00:00:00').getTime()
+    const countDate = new Date ('December 25, 2022 00:00:00').getTime()
     const now = new Date(). getTime();
     const gap = countDate - now;
 
