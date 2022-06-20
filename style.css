@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
+    text-shadow: rgb(121, 247, 104) 2px 1px 1px;
 }
 
 body {
-    background-image: linear-gradient(rgb(168, 243, 197), rgb(65, 134, 51));
+    margin-top: 10%;
+    background-image: linear-gradient(rgb(40, 151, 99), rgb(106, 170, 80));
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -18,11 +21,58 @@ body {
 
 }
 .ContadorDias{
-
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    text-shadow: rgb(63, 136, 55) 2px 1px 1px;
+}
+.dias{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    display: table-column;
+    justify-content: center;
+    align-items: center ;
+    font-size: 25px;
+}
 
+.horas{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    display: table-column;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 15px ;
+    font-size: 25px;
+}
+
+.minutos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    display: table-column;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 15px ;
+    font-size: 25px;
+}
+.segundos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    display: table-column;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 15px ;
+    font-size: 25px;
+    
+}
+
+.day{
+    margin-left: 5px
+}
+
+.hour{
+    margin-left: 30px
+}
+
+.minute{
+    margin-left: 33px
+}
+
+.second{
+    margin-left: 36px
 }
